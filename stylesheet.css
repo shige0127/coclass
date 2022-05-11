@@ -1,0 +1,232 @@
+// 全ページ共通
+*{
+  box-sizing:border-box;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html{
+  background-color: #ffffff;
+  
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #0fac9a;
+  line-height: 65px;
+  // position :fixed;
+  box-shadow: 
+  rgba(0, 0, 0, 0.16) 0px 3px 6px, 
+  rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  // #28
+  font-family: 'Klee One', cursive;
+}
+
+.headinglogo{
+  color: #ffffff;
+  display: block;
+  text-decoration: none;
+  font-size:32px;
+  padding-left: 20px;
+  
+}
+
+.headinglogo:hover{
+  color: #ffffff;
+}
+
+
+.heading{
+  color:#EEEEEE;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+}
+
+.heading:hover{
+  color:#ffd02f;
+  text-decoration: none;
+}
+
+.fa-magnifying-glass:hover{
+  color: #ffd02f;
+}
+
+
+.btnli{
+  float: left;
+  font-size: 18px;
+}
+
+.button-to{
+  background-color: #0fac9a;
+  border: 0px ;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Klee One', cursive;
+}
+
+.button-to:hover{
+  cursor: pointer;
+  color: #ffd02f;
+}
+
+.flash {
+  padding: 10px;
+  margin: 0 auto;
+  color: black;
+  background: #ffd02f;
+  text-align: center;
+  z-index: 10;
+  width: 99%;
+  font-size: 14px;
+  box-shadow: 
+  rgba(0, 0, 0, 0.16) 0px 3px 6px, 
+  rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.title-class{
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.complement{
+  height: 150px;
+}
+
+.complement-short{
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+.like-container{
+  color:#333;
+  margin-top: 20px;
+  padding: 20px 20px;
+
+  border: 1px solid #d3d3d3;
+  background-color: #ffffff;
+  box-shadow: 
+  rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, 
+  rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  // #32
+  font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+// likes,matchsに関して
+
+
+
+.input-form{
+  border: 1px solid #d3d3d3;
+  border-radius: 1px;
+  color:rgb(160, 150, 150);
+  width: 100%;
+  padding: 2px;
+  box-shadow: 
+  rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  // #4
+}
+
+input[type="file"] {
+  display: none;
+}
+
+label{
+  border: 1px solid #d3d3d3;
+  border-radius: 1px;
+  font-size: 15px;
+  padding: 2px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 
+  rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.show-1on1-button{
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: black;
+  box-shadow: 
+  rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, 
+  rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  background-color: #ffd02f;
+  border: 0px ;
+  margin-top: 10px;
+}
+
+.show-1on1-button:hover{
+  background-color: #c89f00;
+  color: black;
+}
+
+.user-boot{
+  width: 100%;
+  border-radius: 100%;
+}
+
+.users-boot{
+  margin-bottom: 15px;
+}
+
+.users-index{
+  float: left;
+  text-align: center;
+}
+
+.user-image img{
+  width: 100px;
+  padding: 0px 20px;
+  border-radius: 100%;
+}
+
+.user-name{
+  color:#333;
+  text-decoration: none;
+  text-align: center;
+}
+
+.user-name-container{
+  padding-bottom: 15px;
+}
+
+.form-error {
+  color: #B00020;
+}
+
+.clear{
+  clear: left;
+}
+
+.js-text-field1{
+  border: 1px solid #d3d3d3;
+  border-radius: 1px;
+  width: 100%;
+  box-shadow: 
+  rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-top: 20px;
+  height: 30px;
+}
+
+.js-text-field1::placeholder{
+  color: #0fac9a;
+} 
+
+.js-text-field1:hover{
+  color: #333;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  padding: 5px;
+  box-shadow: 
+  rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  outline: 1px #0fac9a solid;
+}
+
+.search-boot{
+  margin-top: 10px;
+}
